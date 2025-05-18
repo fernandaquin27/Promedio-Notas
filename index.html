@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Promedio de notas</title>
+</head>
+<body>
+    <h1>Notas del curso</h1>
+    <h2>Ingrese sus 3 notas para calcular el promedio:</h2>
+    
+<div class="container">
+        <form>
+        <p><label for="nota1">Nota 1 <input type="number" id="nota1" min="1" max="10" required></label></p><br>
+        <p><label for="nota2">Nota 2 <input type="number" id="nota2" min="1" max="10" required></label></p><br>
+        <p><label for="nota3">Nota 3 <input type="number" id="nota3" min="1" max="10" required></label></p><br>
+        <p><button type="button" onclick="calcular()">Calcular promedio</button></p>
+        <p id="totalPromedio"></p>
+    </form>
+
+    <script src="./js/app.js"></script>
+</div>
+</body>
+</html>

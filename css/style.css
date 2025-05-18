@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+body {
+    background-image: url("../img/blue\,abstracta.jpg");
+    font-family: 'Comic Relief', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    text-decoration: wavy underline;
+    text-decoration-color: rgb(107, 107, 185);  
+}
+
+h2 {
+    font-size: 1.8em;
+    color: black;
+}
+body>p {
+    font-size: 1.2em;
+    color: black;
+}
+.container {
+    background-color: transparent;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+
+
+    
+    
+    
+    
+
+
+}
+
+    
+
+
+
+    
+    
+
+
+    
+
+}
